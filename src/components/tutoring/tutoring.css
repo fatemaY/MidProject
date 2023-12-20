@@ -1,0 +1,407 @@
+@import url('../header/header.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Montserrat&family=Staatliches&display=swap');
+
+
+.enrol-head-wrapper{
+    margin: 0;
+    /* // background: url('../../assets/Compressed/lum3n--RBuQ2PK_L8-unsplash.jpg'); */
+    background: url('../../assets/original.png');
+    background-size:40%;
+    
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+    .head-nav *{
+        color: black;
+    }
+    .head-nav{
+        backdrop-filter: blur(2px);
+
+    }
+
+    & .enrol-head{
+        box-sizing: border-box;
+        height: 75vh;
+        
+        p{
+            /* // border: 1px solid black; */
+            padding: 10px;
+            margin-top: 40px;
+            
+            background-color: #666666;
+            background-clip: text;
+            color: transparent;
+            text-shadow: rgba(225, 92, 87, 0.8) 0px 3px 3px;
+            /* // text-shadow: #F2D1D1 0px 3px 3px; */
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+.enrol-para{
+    width: 100%;
+    /* // border: 1px solid red; */
+    box-sizing: border-box;
+    display: flex;
+    box-sizing: border-box;
+    min-height: 75vh;
+    margin: 40px 0;
+
+    & .enrol-imgSide {
+        /* // border: 1px solid; */
+        flex: 0.47;
+        /* background-image: url('../../assets/math-algebra-1458664845.jpg'); */
+        background-size: cover;
+        background-position: bottom center;
+        margin: 25px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+        
+        p {
+            border: 1px solid black;
+            margin: 50px;
+            padding: 25px;
+            font-family: 'Staatliches',sans-serif;
+            font-size: 4rem;
+            font-weight: 800;
+            letter-spacing: 1px;
+            width: max-content;
+            /* // background-color: rgba(245, 222, 179, 0.379); */
+            background-color: rgba(255, 255, 0, 0.278);
+        }
+    }
+
+    & .para-context{
+        /* // border: 1px solid; */
+        box-sizing: border-box;
+        flex: 0.53;
+        padding-top: 50px;
+        p{
+            /* // border: 1px solid; */
+            letter-spacing: 0.2px;
+            line-height: 28px;
+            font-size: 1.4rem;
+            font-family: 'Barlow', sans-serif;
+            border-radius: 4px;
+            box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        }
+
+        p:nth-child(1) {
+            font-weight: 500;
+            font-size: 2rem;
+        }
+        p:nth-child(2){
+            background-color: rgba(242, 242, 242, 0.591);
+        }
+        p:nth-child(3){
+            font-size: 1.5rem;
+            color: rgb(56, 133, 181);
+            background-color: rgba(56, 133, 181, 0.069);
+        }
+    }
+}
+
+.enrol-form-here{
+    width: 100%;
+    box-sizing: border-box;
+    /* // border: 0.2px solid grey; */
+    padding: 10px;
+    margin: 0;
+
+    background-image: url('../../assets/elegant_watercolour_abstract_background_2409.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* // background-position: left;
+    // background-attachment: fixed; */
+
+    & #formHere {
+        /* // border: 1px solid; */
+        padding: 20px 0 2px 0;
+
+        P {
+            /* // border: 1px solid; */
+            border-radius: 3px;
+            background-color: #6FDFDF;
+            width: max-content;
+            padding: 15px 50px;
+
+            margin-left: 50%;
+            transform: translate(-50%);
+            /* // box-shadow: 0px 0px 10px 0.1px white; */
+
+            font-size: 1.8rem;
+            font-family: 'Barlow', sans-serif;
+            
+        }
+    }
+
+    & .form-container{
+        /* // margin is used in media */
+        padding: 18px;
+        border-radius: 1px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.82);
+    }
+}
+
+
+
+
+
+
+
+/* // Child Form : step 1 */
+
+.commanInfoStyle{
+    /* // border: 1px dashed; */
+    background-image: url('../../assets/math-algebra-1458664845.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Barlow', sans-serif;
+    padding: 4px;
+    line-height: 28px;
+    color: rgb(8, 8, 66);
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    input {
+    font-family: 'Barlow', sans-serif;
+    background-color: #f8e7dd;
+    }
+    
+
+}
+.formSubtitle {
+    /* // border: 1px dashed grey; */
+    
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* // height: max; */
+    background: #00bbff;
+}
+
+.child-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+
+}
+.child-n{
+    flex: 0.49;
+}
+.button-wrapper{
+    margin: 30px 0 5px 0;
+}
+
+
+
+
+/** Contact Form **/
+input[type=text], select, textarea {
+    background-color: #f8e7dd;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 2px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    border-radius: 5px;
+    background:rgba(188,143,143,0.5);
+    padding: 20px;
+    margin: 0px 40px;
+  }
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2px 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a:not([href]) {
+  color: black;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #04877B}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+/* // terms */
+
+.terms {
+    padding: 0 25px;
+    margin-bottom: 40px;
+}
+
+.agreeBox {
+    padding-left: 50px;
+}
+
+
+
+/* // CONFIRMATION HERE */
+.fields {
+    border-radius: 4px;
+    border: 0.2px dotted grey;
+    padding: 20px;
+    legend {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    & .fieldContent {
+            background-color: #d4f0f85e;
+            /* // font-size: 3rem; */
+            border-radius: 4px;
+            margin: 0;
+        p {
+            /* // border: 1px solid; */
+            padding: 0px 20px;
+        }
+    }
+}
+
+
+
+/* // for normal screen */
+@media (min-width:570px){
+    .enrol-head-wrapper{
+        background-position: bottom;
+    }
+    
+    .enrol-head{
+        p{
+            font-size: 5rem;
+        }
+    }
+
+    .form-container{
+        margin: 2rem 23%;
+    }
+    .enrol-para {
+        flex-direction: row;
+    }
+
+    .para-context {
+        p {
+            padding: 25px 50px;
+            margin: 50px 100px ;
+
+        }
+
+        p:nth-child(3){
+            margin: 70px 100px ;
+        }
+    }
+
+    .formSubtitle {
+        width: max-content;
+    }
+}
+
+
+/* // for mobile */
+@media (max-width:570px){
+    .enrol-head-wrapper{
+        background-position:right;
+    }
+    
+    .enrol-head{
+
+        p{
+            font-size: 5rem;
+        }
+    }
+    .form-container{
+        margin: 15px;
+    }
+    .child-wrapper{
+        display: block;
+    }
+    .child-n {
+        margin: 10px 0;
+    }
+
+    .enrol-para {
+        flex-direction: column;
+    }
+    
+    .para-context {
+        p {
+            padding: 40px 50px;
+            margin: 35px 20px ;
+            line-height: 28px;
+
+        }
+
+        p:nth-child(3){
+            margin: 70px 20px;
+        }
+    }
+}

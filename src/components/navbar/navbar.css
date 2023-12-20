@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=El+Messiri:wght@500&family=Montserrat&family=Staatliches&display=swap');
+
+.navbar {
+    /* // border: 1px solid black;
+    // margin: 0 10vw; */
+    height: 100%;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 1rem;
+    /* background-image: url('../../assets/math-algebra-1458664845.jpg');
+    background-size: cover;
+    background-position: initial;
+    background-repeat:repeat-y ; */
+    /* background-color: white; */
+    background: linear-gradient(135deg, #d1d3d6 20%, #c7cbd3 20% 20%, #a2a7b3 60% 50%);
+    
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    /* // border: 1px solid red;
+    // background-color: rgba(0, 0, 0, 0.106); */
+    z-index: 999;
+
+
+    button {
+        color: black;
+    }
+
+    & .nav-wrapp {
+        /* // border: 1px solid green; */
+        width: 65%;
+        margin-left: 50%;
+        transform: translate(-50%);
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0;
+            /* // border: 1px solid black; */
+
+            li {
+                /* // float: left; */
+                width: 120px;
+                text-align: center;
+                padding: 5px;
+                border-radius: 2px;
+                
+
+                a {
+                    /* // color: white; */
+                    text-decoration: none;
+                    font-size: 1.5rem;
+                    position: relative;
+                    z-index: 0;
+                    cursor: pointer;
+
+                }
+              a:before,  a:after
+                {
+                    position: absolute;
+                    left: 0px;
+                    width: 100%;
+                    height: 5px;
+                    background: #FFF;
+                    content: "";
+                    opacity: 0;
+                    transition: all 0.3s;
+
+                }
+                
+                 a:before
+                {
+                    top: 0px;
+                    transform: translateY(-20px);
+                }
+                
+                 a:after
+                {
+                    bottom: 0px;
+                    transform: translateY(20px);
+                }
+                
+                 a:hover:before,  a:hover:after
+                {
+
+                    opacity: 1;
+                    transform: translateY(0px);
+                }
+
+
+
+                /* a:hover {
+                color: rgb(94, 240, 49);     
+           } */
+            }
+        }
+    }
+}
+
+.hamburger {
+    /* // border: 1px solid wheat; */
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 40%;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+
+    & #hamMenu {
+        list-style-type: none;
+        padding: 0; 
+        text-align: center;
+        /* // padding: 5px; */
+        border-radius: 10px;
+        background-color: red;
+
+        li {
+            box-sizing: border-box;
+            /* // border-bottom: 0.2px solid; */
+            width: 100%;
+            padding: 4px 10px;
+            /* // background-color: red; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            a {
+                display: block;
+                box-sizing: border-box;
+                text-decoration: none;
+                font-size: 1.2rem;
+                width: 100%;
+                /* // background-color: white; */
+                padding: 4px;
+                color: white;
+            }
+        }
+
+    }
+}
+
+.hamburgerBtnContain {
+    /* // border: 1px solid black; */
+
+    div {
+        /* // position: relative;
+        // border: 1px solid; */
+        width: max-content;
+        margin-left: 50%;
+        transform: translate(-50%);
+
+        & .hamburgerBtn {
+            background-color: rgba(0, 0, 0, 0.236);
+        }
+    }
+}
+
+.showMenu {
+    display: block;
+}
+
+@media (min-width: 570px) {
+    .navbar {
+        & #menu {
+            flex-direction: row;
+        }
+    }
+
+    .hamburger,
+    .hamburgerBtnContain {
+        display: none;
+    }
+}
+
+
+@media (max-width: 570px) {
+    .navbar {
+        & #menu {
+            display: none;
+        }
+    }
+
+    .hamburger {
+        /* // display: inline-block; */
+
+        ul {
+            flex-direction: column;
+        }
+    }
+}

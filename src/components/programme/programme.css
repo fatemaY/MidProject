@@ -1,0 +1,492 @@
+@import url('../header/header.css');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Montserrat&family=Staatliches&display=swap');
+
+.prog-head-wrapper {
+    overflow-x: hidden;
+    margin: 0;
+    background: url('../../assets/11.jog.jpg');
+    background-size:cover;
+    background-position: left top;
+    background-attachment: fixed; 
+
+    width: 100%;
+    box-sizing: border-box;
+
+    & .head-nav * {
+        color: rgb(214, 34, 2);
+    }
+
+    & .prog-head {
+        box-sizing: border-box;
+        height: 70vh;
+
+        p {
+            /* // border: 1px solid black; */
+            padding: 10px;
+            margin-top: 40px;
+
+            background-color: #696869;
+            background-clip: text;
+            color: #da0808;
+
+            text-shadow: 4px 4px 0px #2b2a2a,
+                -4px 0 0px #222121,
+                7px 4px 0 #fff;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+}
+
+.prog-wrapper {
+    & .work {
+        /* // border: 1px solid; */
+        /* box-sizing: border-box; */
+        padding: 50px 0;
+        font-family: 'Montserrat', sans-serif;
+        /* background: url('../../assets/11.jog.jpg');
+        background-size:cover;
+        background-position: left top;
+        background-attachment: fixed;  */
+        margin-top: 20px;
+
+
+        div {
+            border: 1px solid;
+            border-radius: 2px;
+            background-color: white;
+            text-align: center;
+            /* // background-color: #F0F1EB; */
+
+
+            h3 {
+                font-size: 1.7rem;
+                /* // border: 1px solid black; */
+                color: rgb(67, 10, 90);
+                margin: 30px 10px;
+            }
+
+            p {
+                /* // border: 1px solid; */
+                font-size: 1.2rem;
+                margin: 40px 0;
+                padding: 10px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    & .sessions-flexbox {
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        background: url('../../assets/11.jog.jpg');
+        background-size:cover;
+        background-position: left top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        box-shadow: inset 0 0 10px #000000;
+    }
+
+    & .sessions {
+        /* // border: 1px solid black; */
+        box-sizing: border-box;
+        padding: 40px 0;
+        font-family: 'Montserrat', sans-serif;
+
+
+
+        div {
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 2px;
+
+
+            h3 {
+                font-size: 1.5rem;
+                margin: 30px 10px;
+                /* // border: 1px solid; */
+            }
+
+            p {
+                font-size: 1.3rem;
+                /* // border: 1px solid; */
+                padding: 15px;
+                margin: 40px 0;
+                line-height: 28px;
+
+            }
+        }
+    }
+
+    & .divider {
+        border: 1px solid black;
+        padding: 0px;
+        margin: 0;
+        /* background: url('../../assets/11.jog.jpg'); */
+         
+        /* background-image: url('../../assets/pexels-mart-production-7577855.jpg'); */
+        background: url('../../assets/11.jog.jpg');
+    background-size:cover;
+    background-position: left top;
+    background-attachment: fixed;
+        background-color: white;
+
+
+        p {
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            width: max-content;
+            padding: 10px 0;
+
+            margin-left: 50%;
+            transform: translate(-50%);
+
+            font-size: 2.5rem;
+            font-family: 'Basecoat', sans-serif;
+        }
+    }
+
+
+    & .timings-wrapper1 {
+        /* // border: 1px solid black; */
+        box-sizing: border-box;
+        padding: 0 5%;
+        font-family: 'Barlow', sans-serif;
+        letter-spacing: 0.4px;
+        background: url('../../assets/11.jog.jpg');
+        background-size:cover;
+        background-position: left top;
+        background-attachment: fixed;
+
+        & .timeHead {
+            /* // border: 1px solid; */
+            margin-top: 40px;
+
+            p {
+                /* // border: 1px solid green; */
+                width: max-content;
+                padding: 20px;
+                font-size: 1.5rem;
+                font-weight: 600;
+                letter-spacing: 1px;
+                background-color: rgb(243, 106, 52);
+                color: white;
+                box-shadow: rgba(255, 148, 148, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+            }
+        }
+
+        & .sessionBox-contain {
+            border-bottom: 1px solid grey;
+            box-sizing: border-box;
+            margin: 0;
+
+            .sessionBox {
+                /* // border: 1px solid; */
+                width: max-content;
+                margin: 0;
+                padding: 60px;
+                margin-left: 50%;
+                margin-top: 30%;
+                transform: translate(-50%, -30%);
+                box-shadow: 1px 1px 0px #999,
+                    2px 2px 0px #999,
+                    3px 3px 0px #999,
+                    4px 4px 0px #999,
+                    5px 5px 0px #999,
+                    6px 6px 0px #999;
+
+                p {
+                    /* // border: 1px solid black; */
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 1.3rem;
+                    /* // margin: 5px; */
+                    padding: 4px;
+                }
+
+            }
+
+            .box1 {
+                background-color: #BAE5F5;
+            }
+
+            .box2 {
+                background-color: #FDE1AC;
+            }
+
+            .box3 {
+                background-color: #E1D2FF;
+            }
+
+            .box4 {
+                background-color: #CCEFBF;
+            }
+
+            & .session-tableContainer {
+                /* // border: 1px solid black; */
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                /* // align-items: center; */
+                height: max-content;
+
+                & .session-table {
+                    /* // border: 1px solid red; */
+                    flex: 0.7;
+
+
+                    table {
+                        width: 100%;
+                        /* // border: 1px dashed grey; */
+                    }
+                }
+
+                & .session-img {
+                    /* // border: 1px solid red; */
+                    flex: 0.3;
+                }
+            }
+        }
+    }
+}
+
+.col1 {
+    width: 25%;
+    text-align: center;
+    /* // border: 1px solid; */
+    height: max-content;
+    font-size: 1rem;
+    color: rgb(99, 99, 99);
+}
+
+.col2 {
+
+    div {
+        /* // border: 1px solid; */
+        padding: 10px;
+
+        p {
+            padding-left: 20px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    }
+}
+
+tr {
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.col3 {
+    width: 30%;
+
+    div p {
+        text-align: center;
+        margin: 0;
+        padding-right: 10px;
+    }
+
+    div p:nth-child(1) {
+        /* // border: 1px solid; */
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    div p:nth-child(2) {
+        /* // border: 1px solid; */
+        font-size: 1rem;
+        color: rgb(134, 134, 134);
+    }
+}
+
+.break {
+    background-color: rgba(243, 161, 161, 0.16);
+
+    p {
+        /* // border: 1px solid; */
+        margin: 30px 0;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: bold;
+        color: #4e4e4e;
+    }
+}
+
+
+.s1,
+.s2{
+    div {
+        background-color:  white;
+        color: black;
+    }
+}
+
+.s1 {
+
+    div {
+        background: url('../../assets/11.jog.jpg');
+        background-size:cover;
+        background-position: left top;
+        background-attachment: fixed;
+        color: black;
+        
+    }
+}
+.s2 {
+
+    div {
+        background: url('../../assets/11.jog.jpg');
+    background-size:cover;
+    background-position: left top;
+    background-attachment: fixed;
+        color: black;
+    }
+}
+.sessions-s3{
+    background: url('../../assets/11.jog.jpg');
+    background-size:cover;
+    background-position: left top;
+    background-attachment: fixed;
+    h3{
+        font-size: 1.5rem;
+        /* // border: 1px solid black; */
+        color: rgb(67, 10, 90);
+        margin: 30px 10px;
+    }
+}
+/* .s4,
+.s5 {
+    div {
+        background-color: rgba(153, 153, 153, 0.421);
+        color: wheat;
+    }
+}
+
+.s4 {
+    background-color: rgba(0, 0, 0, 0.446);
+
+    div {
+        color: white;
+    }
+} */
+
+.s3 {
+    div {
+        background: url('../../assets/11.jog.jpg');
+        background-size:cover;
+        background-position: left top;
+        background-attachment: fixed;        border-radius: 40px;
+        color: black;
+
+    }
+}
+
+/* //Responsive */
+
+@media (min-width:570px) {
+    .prog-head-wrapper {
+        background-position: top right;
+    }
+
+    .prog-head {
+        p {
+            font-size: 5rem;
+        }
+    }
+
+    .work {
+        div {
+            margin: 0 25%;
+
+        }
+    }
+
+    .sessions {
+        div {
+            margin: 0 25%;
+
+        }
+    }
+
+    .sessions-flexbox {
+        flex-direction: row;
+    }
+
+    .sessionTable {
+        padding: 50px;
+
+    }
+
+    .session-tableContainer {
+        flex-direction: row;
+        align-items: center;
+
+        & .session-table {
+            padding: 25px;
+        }
+    }
+}
+
+
+/* // for mobile */
+@media (max-width:570px) {
+    .prog-head-wrapper {
+        background-position: right;
+    }
+
+    .prog-head {
+
+        p {
+            font-size: 4rem;
+        }
+    }
+
+    .work {
+        div {
+            margin: 0 10%;
+
+        }
+    }
+
+    .sessions {
+        div {
+            margin: 0 10%;
+
+        }
+    }
+
+    .sessions-flexbox {
+        flex-direction: column;
+    }
+
+    .timeFlexbox {
+        flex-direction: column;
+    }
+
+    .sessionTable {
+        padding: 20px 0;
+    }
+
+    .timeHead p {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* // .sessionBox {
+    //     position: relative;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    // } */
+
+    .session-tableContainer {
+        flex-direction: column-reverse;
+
+        & .session-table {
+            padding: 4px;
+        }
+
+       
+    }
+}
