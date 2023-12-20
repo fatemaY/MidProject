@@ -8,7 +8,7 @@ const Header = () => {
                 <Navbar />
             </div>
             <div className="head-title">
-                <p> HIGH HOPES <br /> <span>TUTORING <br /> CENTRE </span></p>
+                <p> HIGH Math <br /> <span>TUTORING <br /> CENTRE </span></p>
                 <p className='head-line'> Learners Today <br /> Leaders Tomorrow </p>
 
             </div>
