@@ -9,7 +9,7 @@ const Assignment = () => {
         <div className="assessment-wrapper">
             <div className="assessment-container">
                 <div className="assessment-title">
-                    <o> Get Free Assessment Now! </o>
+                    <p> Get Free Assessment Now! </p>
                 </div>
                 <div className="assessment-button">
                     <Button variant='contained' id="btn">
