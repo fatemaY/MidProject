@@ -1,6 +1,5 @@
 import Navbar from '../navbar/Navbar';
 import './about.css'
-import img from '../../assets/react.svg'
 import Anhar from '../../assets/anhar.jpeg';
 import Fatema from '../../assets/fatema.jpeg';
 
